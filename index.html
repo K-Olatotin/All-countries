@@ -1,0 +1,32 @@
+ zzxxx<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+    <title>All Countries</title>
+</head>
+<body class="dark-mode">
+    <div class="main">
+        <nav class="nav">
+            <h2>Where in the World?</h2>
+            <button class="toggle-mode" id="toggleMode">Dark Mode</button>
+        </nav>
+        <div class="mainbody">
+            <div class="search">
+                <input type="text" class="inputsearch" placeholder="Search by country name">
+                <select name="region" class="searchdrop">
+                    <option value="All">All Regions</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+            <div id="countries-container"></div>
+        </div>
+    </div>
+</body>
+</html>
